@@ -1,3 +1,5 @@
+#![no_std]
+#![no_main]
 #![feature(linkage)]
 #![feature(asm_const)]
 
