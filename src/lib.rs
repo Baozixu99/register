@@ -8,7 +8,7 @@ mod base;
 mod mmu;
 mod ras;
 mod timer;
-mod mm;
+pub mod mm;
 
 pub mod mem_reg_macro;
 pub use base::{
