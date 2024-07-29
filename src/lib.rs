@@ -2,8 +2,6 @@
 #![no_main]
 #![feature(linkage)]
 #![feature(asm_const)]
-#![feature(lang_items)]
-#![feature(panic_info_message)]
 #[macro_use]
 mod csr_macros;
 mod base;
