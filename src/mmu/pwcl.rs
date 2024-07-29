@@ -88,7 +88,7 @@ impl PWCL {
             1 => 128 / 8,
             2 => 192 / 8,
             3 => 256 / 8,
-            _ => panic!("invalid pte_width"),
+            _ => todo!("invalid pte_width"),
         }
     }
     // Set the length of each page table entry in the memory. 0 - 64 bit; 1 - 128 bit; 2 - 192 bit; 3 - 256 bit.
